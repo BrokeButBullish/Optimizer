@@ -1,7 +1,7 @@
 import yfinance as yf
 import pandas as pd
 
-tickers = ["AAPL", "MSFT", "GOOGL", "NVDA", "META", "TSM", "TSLA", "LLY", "BSX", "GS", "SHOP", "UNH", "DINO", "DVN", "XOM", "SLB", "CCJ", "LEU", "NLR", "URNM"]
+tickers = ["AAPL", "MSFT", "GOOGL", "NVDA", "META", "TSM", "TSLA", "LLY", "BSX", "GS", "SHOP", "UNH", "DINO", "DVN", "XOM", "SLB", "CCJ", "LEU", "NLR", "URNM","JPM","NEE","DUK","GLD","SLV","PFE"]
 start_date = "2020-01-01"
 end_date = "2024-01-01"
 
