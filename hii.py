@@ -1,9 +1,9 @@
 import yfinance as yf
 import pandas as pd
 
-tickers = ["AAPL", "MSFT", "GOOG", "AMZN", "TSLA","XLV","INDA","KRE","USXF","VOT","IVOG","META","LLY","GS","SHOP","JPM","GM","NVDA","TSM","VO","SPY","UNH","MNSO","BKR","ADI","KULR"]  # Add your desired tickers
-start_date = "2021-01-01"  # Start date
-end_date = "2025-01-01"    # End date
+tickers = ["AAPL", "MSFT", "GOOG", "AMZN", "TSLA","INDA","USXF","META","LLY","GS","SHOP","JPM","GM","NVDA","TSM","VO","SPY","UNH","BKR","MCHI","FXI","CNYA","MNSO","INDY","INDH","EWL","EWJ","JPXN","FLJP","EDEN"]  # Add your desired tickers
+start_date = "2023-01-01"  # Start date
+end_date = "2025-02-01"    # End date
 
 # Download data
 data = yf.download(tickers, start=start_date, end=end_date)
